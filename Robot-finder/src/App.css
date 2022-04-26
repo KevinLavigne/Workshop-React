@@ -21,9 +21,12 @@
   flex-direction: column;
   width: 26%;
   justify-content: space-evenly;
-  height: 20rem;
   margin-bottom: 4rem;
 }
 span {
   color: red;
+}
+button{
+  margin-top: 1rem;
+  width: 25%;
 }
