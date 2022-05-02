@@ -1,20 +1,21 @@
-import { useState } from 'react'
-import { Routes, Route } from 'react-router'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Beers from "./pages/Beers";
+import Home from "./pages/Home";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-      <h1>Beers and so More</h1>
-    <Routes>
-      <Route path='/' element={Home}/>
-      <Route path="/beers" element={Beers}/>
-    </Routes>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/beers" element={<Beers />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
