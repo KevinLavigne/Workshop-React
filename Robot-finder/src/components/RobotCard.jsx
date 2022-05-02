@@ -1,7 +1,7 @@
 import React from "react";
 import RobotAdress from "./RobotAdress";
 
-const RobotCard = ({name, username, email, website, address}) => {
+const RobotCard = ({name, username, email, website, address, id}) => {
   
   const [display, setDisplay] = React.useState(false)
   function handlheDisplay(){
@@ -10,6 +10,7 @@ const RobotCard = ({name, username, email, website, address}) => {
   return (
 <div className='cardContainer'>
   <div className='card'>
+    <img src={`https://robohash.org/${id}?set=set2`} ></img>
     <h2><span>name</span>: <br/>{name} </h2>
     <h2><span>username</span>: <br/>{username}</h2>
     <h2><span>email</span>: <br/>{email}</h2>
