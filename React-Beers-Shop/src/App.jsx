@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Routes, Route } from 'react-router'
 import logo from './logo.svg'
 import './App.css'
 
@@ -8,6 +9,10 @@ function App() {
   return (
     <div className="App">
       <h1>Beers and so More</h1>
+    <Routes>
+      <Route path='/' element={Home}/>
+      <Route path="/beers" element={Beers}/>
+    </Routes>
     </div>
   )
 }
