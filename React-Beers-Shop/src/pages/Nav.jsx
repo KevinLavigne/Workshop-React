@@ -3,10 +3,13 @@ import Logo from "../../assets/my-beer-my-work.jpg"
 
 const Nav =() =>{
   return(
-    <div>
+    <div className="nav">
     <img src={Logo} />
+    <div className="link">
     <Link to="/">Home</Link>
-    <link to="/beers">Beers</link>
+    <Link to="/beers">Beers</Link>
+    </div>
     </div>
   )
 }
+export default Nav

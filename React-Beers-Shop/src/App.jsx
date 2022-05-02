@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Beers from "./pages/Beers";
 import Home from "./pages/Home";
 import logo from "./logo.svg";
+import Nav from "./pages/Nav";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/beers" element={<Beers />} />
