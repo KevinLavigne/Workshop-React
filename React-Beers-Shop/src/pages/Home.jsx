@@ -1,11 +1,11 @@
 import react from "react";
 import home from "../data/home";
-import hero from "./Hero"
+import Hero from "./Hero"
 const Home = () => {
   return (
     <>
-    <h1>Here is the home page</h1>
-    <Hero props={home.hero}/>
+    <h1 className="title">Here is the home page</h1>
+    <Hero hero={home.hero}/>
     </>
   )
 }
