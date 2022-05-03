@@ -17,7 +17,7 @@ const home = {
   },
   hops: {
     title: "Discover our best malt",
-    imems: [
+    items: [
       {
         title: "Lager Malt",
         description: "orem ipsum dolor sit amet, consectetur adipisicing elit. Quae, assumenda. Provident eius quam vitae aliquid possimus ex sapiente dignissimos voluptas placeat magni! Natus suscipit molestiae quibusdam, officia eum animi quasi! Vero nihil distinctio inventore laudantium deserunt excepturi voluptates. Accusantium soluta maxime aliquam cumque minima error accusamus fuga est voluptatem quae excepturi impedit numquam, velit officiis animi libero asperiores magni quisquam."

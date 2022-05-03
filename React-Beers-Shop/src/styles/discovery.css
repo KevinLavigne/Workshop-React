@@ -1,0 +1,19 @@
+.discovery-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.malts-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.malt-container{
+  width: 40%;
+}
+.malt-container h1 {
+  text-align: center;
+}
