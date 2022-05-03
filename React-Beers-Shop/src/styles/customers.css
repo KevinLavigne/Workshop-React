@@ -1,0 +1,12 @@
+.customers-container{
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.75rem;
+}
+.customer-container{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
