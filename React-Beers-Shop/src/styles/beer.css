@@ -1,0 +1,15 @@
+.beers-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.beer-container{
+  width: 80%;
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
